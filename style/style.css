@@ -23,7 +23,7 @@ header{
     position: fixed;
 }
 
-header a{
+a#downloadlink{
     padding: 15px 50px 0px 20px;
     color: white;
     text-decoration: none;
@@ -31,7 +31,7 @@ header a{
     font-size: 1.1em;
 }
 
-header a:hover{
+a#downloadlink:hover{
     text-decoration: underline;
     color: rgb(135, 218, 135);
 }
@@ -58,6 +58,17 @@ p{
     max-width: 1000px;
     text-align: justify;
     font-size: 1.2em;
+}
+
+#fotinha{
+    width: 60vw;
+    display: block;
+    margin: 50px auto 80px auto;
+}
+
+#intro{
+    text-align: center;
+    font-size: 3em;
 }
 
 #fundo{
