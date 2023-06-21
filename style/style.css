@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: mine;
+    src: url('../fonts/Minercraftory.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(225, 255, 242);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    height: 60px;
+    width: 100vw;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+header a{
+    padding: 15px 50px 0px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: rgb(135, 218, 135);
+}
+
+#logo-header{
+    width: 35px;
+    height: 35px;
+    padding: 10px 30px 12px 20px;
+}
+
+main{
+padding-top: 80px;
+}
+
+h1{
+    font-family: 'mine';
+    padding: 5px;
+    margin: 20px 30px 20px 30px;
+}
+
+p{
+    padding: 5px;
+    margin: 30px 30px 30px 30px;
+    max-width: 1000px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+#fundo{
+    background-image: url(../img/Minecraft\ Wallpaper.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+div#fundo p{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.705);
+    text-shadow: 1px 1px 0px black;
+    color: white;
+    line-height: 2em;
+    margin: 50px 30px 50px 30px;
+    font-family: 'mine';
+    border-radius: 5px;
+}
+
+div#fundo h1{
+    color: white;
+}
+
+#titulo{
+    font-size: 1.8em;
+}
+
+.btn{
+    font-family: 'mine';
+    font-size: 1.5em;
+    padding: 10px 8px;
+    width: 170px;
+    color: white;
+    background: green;
+    border: 1px solid #555;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 35px auto 100px 35px;
+}
+.btn:hover{
+    background: rgb(3, 185, 3);
+}
+
