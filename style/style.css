@@ -33,7 +33,7 @@ a#downloadlink{
 }
 
 a#downloadlink:hover{
-    text-decoration: underline;
+    text-decoration: none;
     color: rgb(135, 218, 135);
 }
 
@@ -134,6 +134,10 @@ footer a{
     text-decoration: none;
     display: flex;
     justify-content: center ;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
 
 footer > p{
